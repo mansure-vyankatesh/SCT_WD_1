@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A responsive landing page for Nova Studio, built with HTML, CSS and JavaScript." />
+  <title>Nova Studio — Make Your Next Move</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Nova Studio home">
+        <span class="brand-mark">N</span><span>nova<span class="brand-light">studio</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#work">Our work</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Independent digital studio</p>
+          <h1>Make your next move <span class="gradient-text">matter.</span></h1>
+          <p class="hero-description">We turn bold ideas into thoughtful digital experiences. Strategy, design, and technology — all moving in the same direction.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore our work <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#about">Get to know us <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true"><span>J</span><span>M</span><span>A</span><span>+</span></div>
+            <p><strong>Small team. Big energy.</strong><br><span>Built for what comes next.</span></p>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract colorful digital artwork">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-core"><span>MAKE<br>IT <em>REAL.</em></span><div class="core-star">✳</div></div>
+          <div class="floating-card card-top"><span class="mini-icon">✦</span><div><strong>Good ideas</strong><small>deserve great design</small></div></div>
+          <div class="floating-card card-bottom"><span class="pulse-icon"></span><div><strong>Always evolving</strong><small>Never standing still</small></div></div>
+          <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 / 04</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Our focus areas">
+      <div class="ticker-track"><span>Strategy</span><b>✳</b><span>Design</span><b>✳</b><span>Development</span><b>✳</b><span>Digital experiences</span><b>✳</b><span>Strategy</span><b>✳</b><span>Design</span><b>✳</b><span>Development</span><b>✳</b></div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">WHAT WE DO</p><h2>Built around your <span class="gradient-text">ambition.</span></h2></div>
+          <p class="section-intro">From the first sketch to the final click, we connect every detail to the bigger picture.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><div class="service-number">01</div><div class="service-symbol symbol-lilac">✳</div><h3>Digital strategy</h3><p>Clear direction for brands ready to move forward with purpose.</p><a href="#contact" class="card-link" aria-label="Discuss digital strategy">↗</a></article>
+          <article class="service-card"><div class="service-number">02</div><div class="service-symbol symbol-orange">◒</div><h3>Brand & design</h3><p>Distinctive identities and interfaces people remember.</p><a href="#contact" class="card-link" aria-label="Discuss brand and design">↗</a></article>
+          <article class="service-card"><div class="service-number">03</div><div class="service-symbol symbol-green">⌘</div><h3>Web development</h3><p>Fast, accessible, responsive websites built to work beautifully.</p><a href="#contact" class="card-link" aria-label="Discuss web development">↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">SELECTED WORK</p><h2>Made to <span class="gradient-text">stand out.</span></h2></div>
+          <a class="text-link" href="#contact">Have a project in mind? <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="work-grid">
+          <article class="work-card work-large"><div class="work-visual visual-one"><span class="visual-label">FIELD NOTES®</span><div class="poster poster-one">A little<br><i>more</i><br>human.</div><span class="visual-caption">Brand world / 2026</span></div><div class="work-meta"><div><h3>Field Notes</h3><p>Brand strategy · Visual identity</p></div><span class="round-arrow">↗</span></div></article>
+          <article class="work-card"><div class="work-visual visual-two"><span class="visual-label">FORM / FUNCTION</span><div class="shape shape-a"></div><div class="shape shape-b"></div><div class="shape shape-c"></div><span class="visual-caption">Digital product / 2026</span></div><div class="work-meta"><div><h3>Form & Function</h3><p>Digital design · Development</p></div><span class="round-arrow">↗</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-grid">
+        <div class="about-stamp"><span>GOOD WORK<br>GOOD PEOPLE</span><b>✳</b></div>
+        <div><p class="eyebrow">A LITTLE ABOUT US</p><h2>Curious minds.<br><span class="gradient-text">Useful magic.</span></h2><p class="about-copy">We believe the best digital work feels effortless — even when a lot of thought goes into it. We pair clear thinking with playful creativity to help good people do their best work.</p><a class="button button-light" href="#contact">Let's make something <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box"><div><p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p><h2>Have a good one<br><span class="gradient-text">in mind?</span></h2></div><a class="button button-primary" href="mailto:hello@novastudio.example">Tell us about it <span aria-hidden="true">↗</span></a><div class="contact-decoration">✳</div></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#top"><span class="brand-mark">N</span><span>nova<span class="brand-light">studio</span></span></a><p>Independent by nature. Digital by design.</p><a href="#top" class="back-top">Back to top ↑</a><small>© <span id="year"></span> Nova Studio. Student project.</small></div>
+  </footer>
+</body>
+</html>
